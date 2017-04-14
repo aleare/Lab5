@@ -1,5 +1,6 @@
 // Lab5.cpp : definisce il punto di ingresso dell'applicazione console.
 //
+// Modificato da un' altro computer
 
 #include "stdafx.h"
 #include <iostream>
