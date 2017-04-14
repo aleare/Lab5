@@ -6,7 +6,7 @@
 #include "Date.h"
 #include "Person.h"
 #include "Student.h"
-#include "StudentBook.h"
+//#include "StudentBook.h"
 
 int main()
 {
@@ -19,6 +19,6 @@ int main()
 	Person Mario("Mario", "Costa", data, 'M');
 	std::cout << Mario.str();
 	std::cout << endl;
-	StudentBook Luca(Person("Luca", "Rossi", oggi, 'M'));
+	Student Luca(Person("Luca", "Rossi", oggi, 'M'));
 	std::cout << Luca.str();
 }
