@@ -5,7 +5,8 @@ class Student :
 	public Person
 {
 public:
-	Student(Person persona);
+	Student();
+	explicit Student(Person persona);
 	Student(Person persona, int matricola, Date data_iscrizione);
 	Student(const Student & to_copy);
 	//Get Matricola
