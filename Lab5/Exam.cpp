@@ -1,6 +1,14 @@
 #include "stdafx.h"
 #include "Exam.h"
 
+Exam::Exam()
+{
+	_course = "Nessun Esame";
+	_grade = 0;
+	_credits = 0;
+	_merit = false;
+}
+
 Exam::Exam(const Exam& to_copy)
 {
 	_course = to_copy.course();
@@ -53,6 +61,11 @@ void Exam::setGrade(int g, bool m)
 void Exam::setCourse(const std::string& course)
 {
 	_course = course;
+}
+
+void Exam::setCredits(int c)
+{
+	_credits = c;
 }
 
 bool Exam::examDone() const
