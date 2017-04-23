@@ -19,7 +19,7 @@ public:
 	// set function
 	void setGrade(int g, bool m = false); //set grade , and merit in case
 	void setCourse(const std::string & course); // set the course info
-	void setCredits(int c); //set the credit value
+	void setCredits(float c); //set the credit value
 	bool examDone() const; //return true if the exam have been passed
 	std::string str() const; // Return a string with the course infromation
 private:

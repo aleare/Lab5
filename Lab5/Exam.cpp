@@ -63,7 +63,7 @@ void Exam::setCourse(const std::string& course)
 	_course = course;
 }
 
-void Exam::setCredits(int c)
+void Exam::setCredits(float c)
 {
 	_credits = c;
 }
