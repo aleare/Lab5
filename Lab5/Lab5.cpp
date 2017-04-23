@@ -19,6 +19,6 @@ int main()
 	Person Mario("Mario", "Costa", data, 'M');
 	std::cout << Mario.str();
 	std::cout << endl;
-	Student Luca(Person("Luca", "Rossi", oggi, 'M'));
+	Student Luca(Person("Luca", "Rossi", oggi, 'M'), "POLITO", 390989, "Ing Elettronica", Date(2, 7, 1999));
 	std::cout << Luca.str();
 }
